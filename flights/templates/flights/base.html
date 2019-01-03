@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>{% block title %}{% endblock %} </title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'flights/styles.css' %}" type="text/css" >
   </head>
   <body>
     {% block body %}

@@ -1,0 +1,34 @@
+div{
+  width: 800px;
+  margin:0 auto;
+  background-color: #f7786b;
+  text-align: center;
+  font-family: fantasy;
+}
+
+div.inner{
+  background-color: #f7cac9;
+}
+
+h1{
+  color: white;
+}
+
+ul{
+  list-style: none;
+  text-align: left;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 50px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}

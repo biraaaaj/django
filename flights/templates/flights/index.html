@@ -5,14 +5,16 @@
 {% endblock %}
 
 {% block body %}
-  <h1>Flights</h1>
-  <ul>
-    {% for flight in flights %}
-    <li>
-        <a href="{% url 'flight' flight.id %}">{{ flight }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class ="outer">
+    <h1>Flights</h1>
+    <ul>
+      {% for flight in flights %}
+        <li>
+            <a href="{% url 'flight' flight.id %}">{{ flight }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endblock %}
 </body>
 </html>
